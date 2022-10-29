@@ -1,0 +1,501 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald';
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 140px;
+    background-color: #202020;
+}
+#logo{
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: -23px;
+}
+nav li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 12px 16px;
+}
+nav li a:hover{
+    background-color: red;
+}
+
+/*INTRO*/
+
+#section1{
+    background-image: url(img/intro.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+.colum1{
+    width: 66%;
+    padding: 65px 75px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+.title1{
+    letter-spacing: 16px;
+    font-size: 14px;
+}
+.title2{
+    font-size: 65px;
+    letter-spacing: 18px;
+    font-weight: lighter;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+.link{
+    padding: 12px 12px 20px 7px;
+    text-decoration: none;
+    letter-spacing: 8px;
+    font-size: 20px;
+    color: black;
+    border-bottom: 2px solid red ;
+}
+.colum2{
+    width: 57%;
+    color: #fff;
+    height: 503px;
+    background-image: linear-gradient(180deg, rgba(255,255,255,0) 80%, #fff 80%);
+}
+.content{
+    padding: 1px 50px 40px 50px;
+    background-color: red;
+}
+.content p{
+    color: white;
+    font-size: 32px;
+    letter-spacing: 4px;
+}
+.colum2 .link{
+    padding: 20px;
+    color: white;
+    border: 1px solid white;
+    display: inline-block;
+}
+
+/*PROGRAMS*/
+
+#section2{
+   text-align: center;
+   margin-top: 50px;
+}
+.container2{
+    width: 90%;
+    max-width: 100vw;
+    margin: auto;
+}
+#zero{
+    font-size: 80px;
+    color: red;
+    font-weight: lighter;
+    margin-bottom: -12px;
+}
+.container2 .title1{
+    color: red;
+
+}
+.p1{
+    font-size: 12px;
+    font-family: 'Poppins';
+    color: grey;
+    width: 70%;
+    margin: auto;
+}
+.container2 .link{
+    display: inline-block;
+    margin-top: 30px;
+}
+.container3{
+    display: flex;
+    margin: auto;
+    width: 75%;
+}
+.colum3{
+    padding: 45px 47px;
+    box-shadow: 2px 4px 8px 0px rgb(0 0 0 / 60%)
+}
+.container3 #one{
+    background-color: black;
+}
+.container3 #two{
+    background-color: red;
+}
+.title3{
+    color: white;
+    font-size: 26px;
+    text-align: left;
+    font-weight: lighter;
+    letter-spacing: 4px;
+}
+#one .p1, #two .p1, #three .p1{
+    color: #fff;
+    text-align: left;
+    width: 100%;
+}
+#three .p1, #three .title3 {
+    color: black;
+}
+#two{
+    position: relative;
+    top: 100px;
+}
+
+/*VIDEO*/
+
+#section3{
+    margin-top: 80px;
+    text-align: center;
+}
+#section3 .container2{
+    position: relative;
+}
+#section3 .colum4{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
+#section3 i{
+    font-size: 120px;
+    color: white;
+    cursor: pointer;
+}
+#btn{
+   border-style: none;
+   background-color: transparent;
+}
+
+/*JOIN*/
+
+#section4{
+    display: flex;
+    padding-top: 150px;
+}
+#section4 img{
+    width: 47%;
+}
+#section4 .colum5{
+    width: 49%;
+    height: 340px;
+    background-color: red;
+    margin-left: 100px;
+    position: relative;
+}
+#section4 .colum6{
+    width: 53%;
+    height: 340px;
+    background-image: url(img/join-back.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#section4 .colum5 .link{
+    padding: 20px;
+    color: white;
+    font-size:14px;
+    border: 1px solid white;
+    position: absolute;
+    top: 8%;
+    left: 35%;
+}
+#section4 #left{
+    position: absolute;
+    width: 280px;
+    height: 300px;
+    top: 25%;
+    right: 0%
+}
+#section4 #right1{
+    position: absolute;
+    height: 250px;
+    top: -40%;
+
+}
+#section4 #right2{
+    position: absolute;
+    height: 300px;
+    top: 25%;
+    right: 44px;
+}
+
+/*TESTIMONIALS*/
+
+#section5{
+    padding-top: 90px;
+    text-align: center;
+}
+#comilla{
+    font-size: 120px;
+    color: red;
+}
+#section5 .link {
+    display:inline;
+    margin-top: 0px; 
+}
+.container4{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+.colum7{
+    width: 40%;
+    margin-right: 40px;
+}
+ .container4 .content2{
+    display: flex;
+}
+.container4 .imagen{
+    width: 100px;
+    height: 100px;
+    background-image: url(img/testimonial.jpg);
+    background-size: cover;
+    border-radius: 100%;
+    margin-top: 2px;
+}
+.container4 .p1{
+    text-align: left;
+    line-height: 28px;
+}
+.container4 #name{
+    margin-top: 40px;
+    color: grey;
+    margin-left: -194px;
+}
+
+/*CONTACT*/
+
+footer{
+    width: 100%;
+    height: 100%;
+    background-image: url(img/contacto.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+footer .contact{
+    background-color: transparent;
+    justify-content: center;
+    padding: 0px;
+}
+.form{
+    display: block;
+    width: 48%;
+    padding: 100px;
+}
+.form .title1, .form .title2{
+    color: white;
+}
+form input[type="text"], form input[type="email"], form textarea{
+    width: 100%;
+    border: 0;
+    background: none;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    font-size: 16px;
+    margin-bottom: 34px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #fff;
+}
+input[type="submit"] {
+    background: none;
+    border: 1px solid #fff;
+    padding: 20px 30px;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 5px;
+    float: right;
+}
+.gym{
+    width: 40%;
+    background-color: red;
+    align-self: flex-end;
+    padding: 1px 50px 50px 50px;
+    margin-right: 24px;
+}
+.col{
+    box-shadow: 0px 70px 120px -42px rgb(0 0 0 / 30%);
+    padding: 30px;
+    margin-bottom: 32px;
+}
+.col ul{
+    padding: 0px;
+}
+.col li{
+    list-style: none;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 15px;
+
+}
+.hours .title3{
+    font-weight: 400;
+}
+.day{
+    background-color: white;
+}
+.day .title3{
+    color: black;
+    font-weight: 400;
+    margin: 0px;
+    margin-bottom: 32px;
+}
+.day .link{
+    border: 1px solid red;
+    display: inline-block;
+}
+
+/*RESPONSIVE*/
+.menu-mobile
+    {
+        display: none;
+    }
+
+@media screen and (max-width: 800px) {
+    
+    #logo {
+        margin-left: -84px;  
+    }
+    .menu-mobile
+    {
+        display: block;
+        float: right;
+        background-color: red;
+    }
+    nav {
+        position: absolute;
+        top: 10%;
+        left: 0%;
+        width: 100%;
+        background-color: red;
+        display: none;
+    }
+    nav li {
+        display: block;
+        margin-bottom: 15px;
+    }
+    nav li a {
+        font-size: 18px;
+    }
+    #section1 {
+        flex-direction: column;
+    }
+    .colum1 {
+        width: 100%;
+        padding: 22px 53px;
+        height: 300px;
+    }
+    .colum2 {
+        width: 100%;
+        height: 280px;  
+    }
+    .title1 {
+        letter-spacing: 13px;
+    }
+    .title2 {
+        font-size: 45px;
+    }
+    .link {
+        letter-spacing: 4px;
+    }
+    #zero {
+        font-size: 54px;
+    }
+    #section2 .title2 {
+        font-size: 30px;
+        letter-spacing: 8px;
+    }
+    .p1 {
+        font-size: 15px;
+    }
+    .container3 {
+        width: 100%;
+        height: 1024px;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-top: 24px;
+    }
+    #two {
+        position: static;
+        top: 0px;
+    }
+    #section3 {
+        margin-top: -100px; 
+    }
+    .container2 {
+        width: 100%;
+    }
+    #video{
+        width: 600px;
+        min-height: 600px;
+    }
+    #section4 {
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0px;
+        margin-top: -80px;
+    }
+    #section4 .colum5 {
+        width: 100%;
+        margin-left: 0px;
+    }
+    #section4 .colum6 {
+        width: 100%;
+    }
+    #section4 #left {
+        position: absolute;
+        width: 271px;
+        height: 261px;
+        top: 35%;
+    }
+    #section4 .colum5 .link {
+        font-size: 23px;
+    }
+    #section4 #right1 {
+        top: -34%;
+    }
+    #comilla {
+        font-size: 72px;
+    }
+    #section5 .title2{
+        margin-top: -32px;
+    }
+    .container4 {
+        flex-direction: column;
+        margin-top: 82px;
+    }
+    .colum7 {
+        width: 100%;
+        padding: 10px;
+    }
+    footer .contact {
+        flex-direction: column;
+    }
+    .form {
+        width: 90%;
+    }
+    .gym {
+        width: 100%;
+        padding: 0px;
+        margin-right: 0;
+    }
+    .col li {
+        text-align: center;
+    }
+    .col .title3 {
+        text-align: center;
+    }
+    .day {
+        text-align: center;
+    }
+}

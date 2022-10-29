@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700|Poppins:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Gym Fitness</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <p id="logo">Fitness Gym Home</p>
+            <img class="menu-mobile" src="img/menu.png" alt="">
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Programs</a></li>
+                    <li><a href="">Testimonials</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </div>    
+    </header>
+
+    <main>
+        <section id="section1">
+            <div class="colum1">
+                <p class="title1">BIGGER.FASTER.STRONGER</p>
+                <h1 class="title2">DIVI FITNESS GYM</h1>
+                <a class="link" href="">GET STARTED TODAY</a>  
+            </div>
+            <div class="colum2">
+                <div class="content">
+                    <p>TRY A FREE 3 DAY GYM PASS</p>
+                    <a class="link" href="">GET YOUR PASS</a>
+                </div>
+            </div>   
+        </section>
+
+        <section id="section2">
+            <div class="container2">
+                <h1 id="zero">0.00</h1>
+                <p class="title1">INITIATION FEE</p>
+                <h1 class="title2">FEATURED PROGRAMS</h1>
+                <p class="p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+                <a class="link" href="">ALL PROGRAMS</a>
+            </div>
+            <div class="container3">
+                <div class="colum3" id="one">
+                    <h3 class="title3">PERSONAL TRAINING</h3>
+                    <p class="p1">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Pellentesque in ipsum id</p>
+                </div>
+                <div class="colum3" id="two">
+                    <h3 class="title3">PERSONAL TRAINING</h3>
+                    <p class="p1">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Pellentesque in ipsum id</p>
+                </div>
+                <div class="colum3" id="three">
+                    <h3 class="title3">PERSONAL TRAINING</h3>
+                    <p class="p1">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Pellentesque in ipsum id</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="section3">
+            <div class="container2">
+                <video id="video" width="900px" height="600px" src="img/video.mp4"></video>
+                <div class="colum4">
+                    <button id="btn" onclick="playVideo()">
+                    <i class="far fa-play-circle"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="section4">
+            <div class="colum5">
+                <a class="link" href="">JOIN NOW</a>
+                <img id="left" src="img/izq.jpg" alt="">
+            </div>
+            <div class="colum6">
+                <img id="right1" src="img/der1.jpg" alt="">
+                <img id="right2" src="img/der2.jpg" alt="">
+            </div>
+        </section>
+
+        <section id="section5">
+            <div class="container2">
+                <span id="comilla">"</span>
+                <h1 class="title2">TESTIMONIALS</h1>
+                <a class="link" href="">JOIN THE MOVEMENT</a>
+                <div class="container4">
+                    <div class="colum7">
+                        <div class="content2">
+                        <div class="imagen"></div>
+                        <p class="p1">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in”</p>
+                        </div>
+                        <p id="name">Marissa James</p>
+                    </div>
+                    <div class="colum7">
+                        <div class="content2">
+                        <div class="imagen"></div>
+                        <p class="p1">“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in”</p>
+                        </div>
+                        <p id="name">Marissa James</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container contact">
+            <div class="form">
+                <p class="title1">BIGGER.FASTER.STRONGER</p>
+                <h1 class="title2">DIVINATION</h1>
+                <form action="enviar.php" method="post">
+                    <input type="text" placeholder="Nombre" name="nombre">
+                    <input type="email" placeholder="Email Address" name="email">
+                    <textarea placeholder="Message" name="mensaje"></textarea>
+                    <input type="submit" value="SUBMIT">
+                  </form>
+            </div>
+            <div class="gym">
+                <div class="col hours">
+                    <h3 class="title3">GYM H0URS</h3>
+                    <ul>
+                        <li>Monday-Friday: 5am – 11pm</li>
+                        <li>Monday-Friday: 5am – 11pm</li>
+                        <li>Monday-Friday: 5am – 11pm</li>
+                    </ul>
+                </div>
+                <div class="col day">
+                    <h3 class="title3">FREE 3 DAY GYM PASS</h3>
+                    <a href="" class="link">GET STARTED</a>
+                </div>
+            </div>
+        </div>
+    </footer>  
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
